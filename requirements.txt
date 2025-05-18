@@ -1,0 +1,8 @@
+numpy
+scikit-learn
+pandas
+fasttext
+matplotlib
+tqdm
+streamlit
+-e .
