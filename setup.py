@@ -4,9 +4,9 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 __version__ = "0.0.1"
-REPO_NAME = "ewealign"
+REPO_NAME = "twialign"
 AUTHOR_USER_NAME = "kcnewman"
-SRC_REPO = "ewealign"
+SRC_REPO = "twialign"
 AUTHOR_EMAIL = "newmankelvin14@gmail.com"
 
 setuptools.setup(
