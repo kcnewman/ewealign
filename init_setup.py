@@ -8,9 +8,9 @@ project_name = "afrisentiment"
 
 list_of_files = [
     "./data/.gitkeep",
-    "./data/raw",
-    "./data/processed",
-    "./data/embeddings",
+    "./data/raw/",
+    "./data/processed/",
+    "./data/embeddings/",
     "./data/dataloader.py",
     "./notebooks/data_exploration.ipynb",
     "./notebooks/model_training.ipynb",
@@ -22,14 +22,14 @@ list_of_files = [
     "./src/translation.py",
     "./src/evaluation.py",
     "./src/visualization.py",
-    "./models",
-    "./results/metrics",
-    "./results/figures",
+    "./models/",
+    "./results/metrics/",
+    "./results/figures/",
     "./tests/__init__.py",
     "./results/.gitkeep",
     "./requirements.txt",
     "./main.py",
-    "./setup.py"
+    "./setup.py",
 ]
 
 for file_path in list_of_files:
