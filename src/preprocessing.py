@@ -8,7 +8,7 @@ import unicodedata
 def load_corpus(file_path):
     df = pd.read_csv(file_path, names=["english", "twi"])
     df["english"] = df["english"].str.strip().str.lower()
-    df["english"] = df["english"].str.strip().str.lower()
+    df["english"] = df["twi"].str.strip().str.lower()
     df = df.dropna()
 
     print(f"Loaded {len(df)} parallel sentences")
